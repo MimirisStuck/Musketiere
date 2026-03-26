@@ -32,3 +32,5 @@ else :
   echo '<p>Keine Beiträge gefunden</p>';
 endif;
 ?>
+
+<?php get_footer(); ?>

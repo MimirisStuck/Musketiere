@@ -5,9 +5,6 @@ Template Name: Nutzer Admin Page
 get_header();
 ?>
 
-<main class="custom-page">
-    <h1><?php the_title(); ?></h1>
-
     <table>
     <tr>
         <th>ID</th>
@@ -36,6 +33,5 @@ get_header();
     <div class="special-section">
         <p>Hier kommt dein individuelles Design hin!</p>
     </div>
-</main>
 
 <?php get_footer(); ?>

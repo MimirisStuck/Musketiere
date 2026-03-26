@@ -1,0 +1,80 @@
+@import "variables.scss";
+
+.header{
+    background-color:$musketierSilver;
+    border-bottom: 1px solid $musketierRed;
+    .header-inner{
+        max-width: 80%;
+        display: flex;
+        color: $musketierBlack;
+        padding: 0 20px;
+        margin: 0 10%;
+        .header-logo{
+            img{
+                height: 170px;
+                width: auto;
+            }
+        }
+        .header-nav{
+            padding-top: 10px;
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            img{
+                max-height: 80px;
+                width: 1000px;
+            }
+            .nav{
+                margin-top: auto;
+                .menu{
+                    ul{
+                        display: flex;
+                        padding: 0;
+                        max-height: fit-content;
+                        margin: 0;
+                        
+                        .page_item{
+                            list-style: none;
+                            width: 100%;
+                            max-width: fit-content;
+                            position: relative;
+                            a{
+                                display: block;
+                                padding: 15px;
+                                color: $musketierBlack;
+                                text-decoration: none;
+                                
+                                &:hover{
+                                    background-color: $musketierRed;
+                                    color: $musketierSilver;
+                                }
+                            }
+                            .children{
+                                display: none;
+                                position: absolute;
+                                min-width: 100%;
+                                width: max-content;
+                                left: 0;  
+                                
+                                a{
+                                    background-color: $musketierRed;
+                                    color: $musketierSilver;
+                                    &:hover{
+                                        background-color: $musketierSilver;
+                                        color: $musketierBlack;
+                                        border: 1px solid $musketierBlack;
+                                    }
+                                }
+                            }
+            
+                            &:hover .children{
+                                display: block;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

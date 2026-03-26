@@ -7,7 +7,7 @@
     display: flex;
 }
 
-.post-block:nth-child(2n+1){
+.post-block:nth-child(2n){
     border-color: red;
     margin-left: auto;
 }
