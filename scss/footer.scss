@@ -1,0 +1,25 @@
+@import "variables.scss";
+
+footer{
+    background-color: $musketierSilver;
+    border-top: 1px solid $musketierRed;
+    margin-top: 10px;
+    .footer-text{
+        margin: 0 15%;
+        display: flex;
+    
+        .footer-adress-block{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .footer-link-block{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .footer-impressum{
+        margin: 0 20%;
+        color: $musketierRed;
+    }
+}
