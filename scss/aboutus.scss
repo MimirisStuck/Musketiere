@@ -1,0 +1,29 @@
+@import "variables.scss";
+
+.aboutus{
+
+    &-title{
+        background-color: $musketierSilver;
+        width: fit-content;
+        padding: 5px  20px;
+        border-left: 5px solid $musketierRed;
+    }
+
+    &-heading h2{
+        background-color: $musketierSilver;
+        width: fit-content;
+        padding: 5px  20px;
+        border-left: 5px solid $musketierRed;
+    }
+
+    &-image figure img{
+        width: 30%;
+        height: auto;
+    }
+
+    &-image + &-paragraph p{
+        background-color: $musketierSilver;
+        border-left: 5px solid $musketierRed;
+        padding:5px 10px;
+    }
+}
