@@ -1,0 +1,31 @@
+@import "variables.scss";
+
+
+.downloads{
+    &-title{
+        background-color: $musketierSilver;
+        width: fit-content;
+        padding: 5px  20px;
+        border-left: 5px solid $musketierRed;
+    }
+    &-pdf-link {
+        position: relative;
+        overflow: hidden;
+    }
+
+    &-pdf-link-iframe {
+        width: 100%;
+        max-width: 800px;
+        height: 1200px;
+        border: none;
+        display: block;
+        pointer-events: none;
+    }
+
+    &-overlay {
+        position: absolute;
+        inset: 0;
+        z-index: 10;
+        display: block;
+    }
+}
