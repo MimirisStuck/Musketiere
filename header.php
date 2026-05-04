@@ -9,7 +9,7 @@
 <header  class="header">
     <div class="header-inner">
         <div class="header-logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/MusketierLogo.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/MusketierLogo2.jpg" alt="">
         </div>
         <div class="header-nav">
             <img src="<?php echo get_template_directory_uri(); ?>/images/MusketierSchriftzug.jpg" alt="">
