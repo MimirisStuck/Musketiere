@@ -4,11 +4,38 @@
     color: $musketierBlack;
     background-color: $musketierSilver;
     border-top: 1px solid $musketierRed;
-    margin-top: 10px;
-    display: flex;
-    &-contact{
-        &-name{
-            font-weight: bold;
+    padding-bottom: 20px;
+    &-main{
+        margin:10px 30%;
+        display: flex;
+        &-contact{
+            margin-right: auto;
+            &-name{
+                font-weight: bold;
+            }
+        }
+        &-links{
+            a{
+                display: block;
+                color:$musketierBlack;
+                text-decoration: none;
+                margin: 1px 0;
+            }
+
+        }
+    }
+    &-social{
+        margin: 10px 30%;
+        margin-left: auto;
+        
+        
+        width: fit-content;
+        display: block;
+        a{
+            color: $musketierBlack;
+            font-size: 30px;
+            margin: 7.5px ;
+            margin-bottom: 20px;
         }
     }
 }
