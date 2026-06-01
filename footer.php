@@ -12,8 +12,8 @@
             <p>Geschäfftsstelle:</p>
             <p><?php echo get_theme_mod('footer_address'); ?></p>
             <p><?php echo get_theme_mod('footer_city'); ?></p>
-            <p>Tel. <?php echo get_theme_mod('footer_phone'); ?></p>
-            <p>Email: <?php echo get_theme_mod('footer_email'); ?></p>
+            <p>Tel. <a href="<?php echo get_theme_mod('footer_phone'); ?>"><?php echo get_theme_mod('footer_phone'); ?></a></p>
+            <p>E-Mail: <a href="mailto:<?php echo get_theme_mod('footer_email'); ?>"><?php echo get_theme_mod('footer_email'); ?></a></p>
         </div>
         <div class="footer-main-links">
             <h4>Rechtliches & Infos</h4>
