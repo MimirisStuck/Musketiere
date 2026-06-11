@@ -30,4 +30,6 @@ function register_event_post_type() {
     ]);
 }
 add_action('init', 'register_event_post_type');
+
+add_filter('show_admin_bar', '__return_false');
 ?>
